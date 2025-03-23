@@ -19,7 +19,7 @@ const Hero = () => {
           <button className="pr-6 p-1 border rounded ml-2 uppercase bg-[#2c86ef] text-white">
             <span className="flex items-center gap-2">
               <img
-                src="/public/google-icon.webp"
+                src="/public/google-icon.png"
                 alt="Google"
                 className="h-[38px] bg-white p-1"
               />
