@@ -12,7 +12,7 @@ const brands = [
 const BrandLogos = () => {
   return (
     <div className="bg-[#F9F1EB] py-6">
-      <div className="max-w-6xl mx-auto flex justify-center items-center space-x-8">
+      <div className="max-w-6xl mx-auto flex flex-col md:flex-row justify-center items-center space-x-8">
         {brands.map((brand, index) => (
           <img
             key={index}

@@ -3,7 +3,7 @@ import SlackInfo from "./SlackInfo";
 
 const Hero = () => {
   return (
-    <div className="flex">
+    <div className="flex flex-col md:flex-row">
       <section className="flex flex-col justify-start text-left py-12">
         <h1 className="text-6xl font-bold leading-[65px]">
           Slack is where the future works
