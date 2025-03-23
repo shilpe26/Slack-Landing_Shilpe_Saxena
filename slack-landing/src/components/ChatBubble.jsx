@@ -4,7 +4,7 @@ import { RxCross1 } from "react-icons/rx";
 const ChatBubble = () => {
   const [isVisible, setIsVisible] = useState(true);
   return isVisible ? (
-    <div className="fixed bottom-4 left-3.5 md:right-6 flex items-end space-x-2">
+    <div className="fixed bottom-4 right-6 flex items-end space-x-2">
       <div className="relative bg-white shadow-lg p-3 rounded-lg text-sm border border-gray-200">
         <button
           className="absolute -top-2 -left-2 bg-gray-400 p-1 rounded-full text-white cursor-pointer"
