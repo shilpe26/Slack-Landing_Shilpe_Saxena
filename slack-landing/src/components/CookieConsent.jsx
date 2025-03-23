@@ -1,10 +1,15 @@
-import React from "react";
+import React, { useState } from "react";
 import { RxCross1 } from "react-icons/rx";
 
 const CookieConsent = () => {
-  return (
+  const [isVisible, setIsVisible] = useState(true);
+
+  return isVisible ? (
     <div className="fixed bottom-6 right-6 bg-white shadow-lg pt-6 pb-4 px-4 rounded-lg w-80 border border-gray-200">
-      <button className="absolute top-2 right-2 text-gray-500 hover:text-gray-700">
+      <button
+        className="absolute top-2 right-2 text-gray-500 hover:text-gray-700 cursor-pointer"
+        onClick={() => setIsVisible(false)}
+      >
         <RxCross1 size={14} strokeWidth={1.5} />
       </button>
 
@@ -22,7 +27,7 @@ const CookieConsent = () => {
         ACCEPT ALL COOKIES
       </button>
     </div>
-  );
+  ) : null;
 };
 
 export default CookieConsent;

@@ -1,11 +1,15 @@
-import React from "react";
+import React, { useState } from "react";
 import { RxCross1 } from "react-icons/rx";
 
 const ChatBubble = () => {
-  return (
+  const [isVisible, setIsVisible] = useState(true);
+  return isVisible ? (
     <div className="fixed bottom-4 right-6 flex items-end space-x-2">
       <div className="relative bg-white shadow-lg p-3 rounded-lg text-sm border border-gray-200">
-        <button className="absolute -top-2 -left-2 bg-gray-400 p-1 rounded-full text-white">
+        <button
+          className="absolute -top-2 -left-2 bg-gray-400 p-1 rounded-full text-white cursor-pointer"
+          onClick={() => setIsVisible(false)}
+        >
           <RxCross1 size={6} strokeWidth={1.5} />
         </button>
         <p>Hey there 👋 Want to know something cool?</p>
@@ -15,6 +19,6 @@ const ChatBubble = () => {
         👏
       </button>
     </div>
-  );
+  ) : null;
 };
 export default ChatBubble;

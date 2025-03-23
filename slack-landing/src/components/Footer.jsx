@@ -13,7 +13,7 @@ const Footer = () => {
         <CookieConsent />
         <ChatBubble />
       </div>
-      <p>© 2024 Slack. All rights reserved.</p>
+      <p>© 2025 Slack. All rights reserved.</p>
     </footer>
   );
 };
