@@ -1,0 +1,6 @@
+@import "tailwindcss";
+
+:root {
+  background-color: #F7EFE8;
+  padding: 0 16px;
+}
