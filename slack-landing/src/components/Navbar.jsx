@@ -22,12 +22,14 @@ const Navbar = () => {
       </div>
       <div className="flex items-center gap-1">
         <BiSearch size={24} />
-        <button className="px-4 py-2">Sign In</button>
+        <button className="px-1 md:px-4 md:py-2 text-xs md:text-base whitespace-nowrap">
+          Sign In
+        </button>
         <div className="flex gap-3">
-          <button className="px-4 py-2 border-2 border-[#622166] text-[#622166] font-medium rounded ml-2 uppercase">
+          <button className="px-2 md:px-4 md:py-2 border-2 border-[#622166] text-[#622166] font-medium rounded ml-2 uppercase text-xs md:text-base">
             Talk to Sales
           </button>
-          <button className="px-4 py-2 bg-[#622166] text-white rounded ml-2 uppercase">
+          <button className="px-2 md:px-4 md:py-2 bg-[#622166] text-white rounded ml-2 uppercase text-xs md:text-base">
             Try for Free
           </button>
         </div>
