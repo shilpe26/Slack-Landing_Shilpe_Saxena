@@ -7,7 +7,7 @@ const Navbar = () => {
     <nav className="flex flex-col gap-4 md:gap-0 md:flex-row justify-between p-4 items-center">
       <div className="flex flex-col md:flex-row items-center gap-6">
         <div className="flex items-center gap-1">
-          <img src="/public/slack-icon.webp" alt="Slack" className="h-8" />
+          <img src="/public/slack-icon.png" alt="Slack" className="h-8" />
           <p className="font-extrabold">slack</p>
         </div>
         <ul className="flex gap-4 font-medium">
