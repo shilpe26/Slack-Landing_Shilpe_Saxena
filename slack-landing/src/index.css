@@ -4,3 +4,9 @@
   background-color: #F7EFE8;
   padding: 0 16px;
 }
+
+@media (max-width: 768px) {
+  :root {
+    padding: 0;
+  }
+}

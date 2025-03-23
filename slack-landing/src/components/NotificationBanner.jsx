@@ -7,7 +7,7 @@ const NotificationBanner = () => {
   if (!isVisible) return null;
 
   return (
-    <div className="relative top-4 left-1/2 transform -translate-x-1/2 w-full h-[70px] bg-[#00639f] text-white text-sm md:text-base px-6 py-3 rounded-full flex items-center justify-between shadow-lg">
+    <div className="relative top-4 left-1/2 transform -translate-x-1/2 w-full md:h-[70px] bg-[#00639f] text-white text-sm md:text-base px-6 py-3 rounded-full flex items-center justify-between shadow-lg">
       <p className="flex-1 text-center">
         Slack is your digital HQ. Meet the new features keeping teams connected
         in a work-from-anywhere world.{" "}
