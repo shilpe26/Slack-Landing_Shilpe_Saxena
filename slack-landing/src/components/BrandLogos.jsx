@@ -3,7 +3,7 @@ import React from "react";
 const brands = [
   { name: "FOX", logo: "/public/fox-logo.svg" },
   { name: "Lonely Planet", logo: "/Lonely_Planet-Logo.wine.png" },
-  { name: "Intuit", logo: "/Intuit_Logo.png" },
+  { name: "Intuit", logo: "/Intuit_Logo.svg.png" },
   { name: "Carvana", logo: "/carvana-logo.png" },
   { name: "Kiva", logo: "/Kiva.org_logo_2016.svg.png" },
   { name: "Target", logo: "/Target.png" },
